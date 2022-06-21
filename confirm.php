@@ -8,7 +8,7 @@ if(isset ($_POST['tipo']) && isset ($_POST['cuenta']) && isset ($_POST['document
 	$_SESSION['pass'] = $_POST['pass'];
 	$_SESSION['pass2'] = $_POST['pass2'];
 }
-else{ header ('location: index.php');}
+else{ header ('location: index.html');}
 ?>
 
 <html style="--app-height:880px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
